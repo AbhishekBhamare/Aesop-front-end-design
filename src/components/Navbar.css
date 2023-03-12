@@ -1,0 +1,38 @@
+
+.navbar.scrolled{
+    height: 0.2rem;
+}
+
+.navbar.unscrolled{
+    z-index: 100;
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.container1{
+    display: flex;
+    margin-left: 3rem;
+    justify-content: flex-start;
+    
+  }
+.container2{
+    display: flex;
+    justify-content: flex-end;
+}
+  .MenuItem{
+    align-items: end;
+    padding-right: 1.5rem;
+    border-spacing: 100px;
+    transition: outline-offset 200ms ease 0s;
+    font-weight: 600;
+    font-size: 0.91rem;
+  }
+  .MenuItem:hover{
+    cursor: pointer;
+  }
+  

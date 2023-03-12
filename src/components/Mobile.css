@@ -1,0 +1,59 @@
+.mobile-App{
+    display: flex;
+    flex-direction: column;
+}
+.mobile-body{
+    background-image: url('https://www.aesop.com/u1nb1km7t5q7/4f2NHs1sITIYvacXkHsLpm/cfff69e59480c43adca3ab361e80d3d8/Aesop_Incense_2023_Web_Homepage_Primary_Full_Bleed_Mobile_640x640px.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    align-items: row;
+}
+
+.mobile-info{
+    padding-top: 0rem;
+    background-color:#383838;
+    /* padding-top: 1rem; */
+    display: flex;
+    justify-content: flex-start;
+    padding: 2rem;
+}
+.mobile-title{
+    margin-top: 0rem;
+    color: white;
+}
+
+.info1 .btn{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: #fffef2;
+    border: 1px solid #fffef2;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 1rem;
+    width: 80%;
+}
+  
+  .info1 .btn:hover{
+    background-color: #fffef2;
+    color: #252525;
+    cursor: pointer;
+    transition-delay: 190ms;
+  }
+
+  .info2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .info3{
+    background-size: cover;
+    width: 100%;
+    height: 30rem;
+    display: flex;    
+  }
+  
